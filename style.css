@@ -81,7 +81,7 @@ button{
 }
 
 .randombg{
-    height:60vh;
+    height:52vh;
     width:99vw;
     background:#fff;
     margin-top:80px;
@@ -126,4 +126,28 @@ img{
 .subtext{
     max-width:140px;
     text-align:center;
+}
+
+.inspiringcontainer{
+height:45vh;
+width:99vw;
+background:#E5E7EB;
+display:flex;
+flex-flow:column wrap;
+justify-content:center;
+align-items:center;
+}
+
+.quote{
+    max-width:750px;
+    font-size:36px;
+    font-weight:light;
+    font-style:italic;
+    color:#1F2937;
+}
+.quotesubtext{
+align-self:center;
+margin-left:530px;
+font-weight:bold;
+font-size:20px;
 }
