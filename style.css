@@ -100,3 +100,11 @@ button{
     font-weight:bolder;
     color:#1F2937;
 }
+
+.randomimages{
+    display:flex;
+    flex-flow: row wrap;
+    margin-top:40px;
+    gap:8px;
+    align-items:center;
+}
