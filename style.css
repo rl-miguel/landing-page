@@ -2,16 +2,40 @@
     box-sizing:border-box;
 }
 
-.header{
-    background-color:#1F2937;
-    height:2vh;
-    width:100vw;
+body{
+    background:#1F2937;
 
 }
+.header,
+.footer{
+    background:#1F2937;
+    height:20vh;
+    width:85vw;
+}
 
-.header.logo{
+.header{
+    display:flex;
+    flex-flow:row nowrap;
+    margin-top:24px;
+    
+    gap:40px;
+}
+
+
+
+.headerlogo{
     font-size:24px;
     color:#F9FAF8;
+    margin-right:auto;
+    font-weight:bolder;
+    margin-left:230px;
+}
+
+
+.main{
+    height:18vh;
+    display:block;
+    
 }
 
 .main.title{
@@ -20,8 +44,8 @@
     color:#F9FAF8;
 }
 
-.header.link,
-.main.subtext{
+.headerlink,
+.mainsubtext{
     font-size:18px;
     color:#E5E7EB;
 }
