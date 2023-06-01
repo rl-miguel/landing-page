@@ -21,23 +21,32 @@ body{
     gap:40px;
 }
 
-
-
 .headerlogo{
     font-size:24px;
     color:#F9FAF8;
     margin-right:auto;
     font-weight:bolder;
-    margin-left:350px;
+    margin-left:470px;
+}
+
+.headerlink,
+.mainsubtitle{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.headerlink.last{
+    margin-right:450px;
 }
 
 
 .main{
-    height:20vh;
+    height:30vh;
     width:99vw;
     display:flex;
     justify-content:center;
     align-items:center;
+    margin-top:-40px;
     
 }
 
@@ -45,6 +54,11 @@ body{
     font-size:48px;
     font-weight:bolder;
     color:#F9FAF8;
+}
+
+.maintext{
+    margin-left:-160px;
+
 }
 
 .maintitle,
@@ -62,12 +76,18 @@ body{
     height:auto;
 }
 
-.headerlink,
-.mainsubtitle{
-    font-size:18px;
-    color:#E5E7EB;
+button{
+    margin-top:14px;
 }
 
-.headerlink.last{
-    margin-right:350px;
+.randombg{
+    height:50vh;
+    width:99vw;
+    background:#fff;
+    margin-top:80px;
+}
+
+.random{
+    display:flex;
+    flex-flow:column
 }
