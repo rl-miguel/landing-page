@@ -46,7 +46,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-top:-40px;
+    margin-top:-100px;
     
 }
 
@@ -81,7 +81,7 @@ button{
 }
 
 .randombg{
-    height:50vh;
+    height:60vh;
     width:99vw;
     background:#fff;
     margin-top:80px;
@@ -105,16 +105,14 @@ button{
     display:flex;
     flex-flow: row wrap;
     margin-top:40px;
-    gap:8px;
+    gap:44px;
     align-items:center;
 
 }
-.randomimages~.resize{
+img{
     height:auto;
-    width:10px;
+    width:200px;
 }
-
-/* I can't get the tilde selector to work above */
 
 
 .randomcontent{
@@ -122,9 +120,10 @@ button{
     flex-flow: row wrap;
     justify-content:space-evenly;
     align-items:center;
-    gap:120px;
+    gap:105px;
 }
 
 .subtext{
     max-width:140px;
+    text-align:center;
 }
