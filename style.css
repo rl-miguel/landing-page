@@ -89,5 +89,14 @@ button{
 
 .random{
     display:flex;
-    flex-flow:column
+    flex-flow:column wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.randominfo{
+    margin-top:50px;
+    font-size:36px;
+    font-weight:bolder;
+    color:#1F2937;
 }
