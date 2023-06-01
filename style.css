@@ -107,4 +107,24 @@ button{
     margin-top:40px;
     gap:8px;
     align-items:center;
+
+}
+.randomimages~.resize{
+    height:auto;
+    width:10px;
+}
+
+/* I can't get the tilde selector to work above */
+
+
+.randomcontent{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    gap:120px;
+}
+
+.subtext{
+    max-width:140px;
 }
