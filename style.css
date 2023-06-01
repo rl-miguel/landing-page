@@ -57,7 +57,7 @@ body{
 }
 
 .maintext{
-    margin-left:-160px;
+    margin-left:-100px;
 
 }
 
@@ -151,3 +151,45 @@ margin-left:530px;
 font-weight:bold;
 font-size:20px;
 }
+
+.adbackground{
+    height:30vh;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.ad{
+    margin-left:80px;
+    background:#3882F6;
+    height:80px;
+    width:900px;
+    padding:60px;
+    border-radius:30px;
+    font-size:18px;
+    color:#F9FAF8;
+
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+
+li{
+   margin-right:250px;
+   list-style:none;
+    
+    
+}
+.ad+button{
+   position:relative;
+   right:200px;
+
+
+}
+
