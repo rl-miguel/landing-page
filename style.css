@@ -10,7 +10,7 @@ body{
 .footer{
     background:#1F2937;
     height:20vh;
-    width:85vw;
+    width:99vw;
 }
 
 .header{
@@ -28,23 +28,29 @@ body{
     color:#F9FAF8;
     margin-right:auto;
     font-weight:bolder;
-    margin-left:230px;
+    margin-left:350px;
 }
 
 
 .main{
     height:20vh;
+    width:99vw;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-left:170px;
+    
 }
-
 
 .maintitle{
     font-size:48px;
     font-weight:bolder;
     color:#F9FAF8;
+}
+
+.maintitle,
+.mainsubtitle{
+    flex-grow:1 1 400px;
+    width:400px;
 }
 
 .mainsubtitle{
@@ -60,4 +66,8 @@ body{
 .mainsubtitle{
     font-size:18px;
     color:#E5E7EB;
+}
+
+.headerlink.last{
+    margin-right:350px;
 }
