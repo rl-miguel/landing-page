@@ -33,19 +33,31 @@ body{
 
 
 .main{
-    height:18vh;
-    display:block;
-    
+    height:20vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:170px;
 }
 
-.main.title{
+
+.maintitle{
     font-size:48px;
     font-weight:bolder;
     color:#F9FAF8;
 }
 
+.mainsubtitle{
+    margin-right:70px;
+}
+
+.mainimages>img{
+    width:320px;
+    height:auto;
+}
+
 .headerlink,
-.mainsubtext{
+.mainsubtitle{
     font-size:18px;
     color:#E5E7EB;
 }
