@@ -1,7 +1,13 @@
 *{
     box-sizing:border-box;
+    font-family:"Rubik",'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+@font-face{
+    font-family:"Rubik";
+    src: url("./fonts/Rubik-Italic-VariableFont_wght.ttf");
+    src:url("./fonts/Rubik-VariableFont_wght.ttf");
+}
 body{
     background:#1F2937;
 
@@ -46,7 +52,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-top:-100px;
+    margin-top:-50px;
     
 }
 
@@ -76,12 +82,24 @@ body{
     height:auto;
 }
 
-button{
+.mainsubtitle+button{
     margin-top:14px;
+
+    font-weight:bold;
+   background:#3882F6;
+   color:#fff;
+   padding-left:40px;
+   padding-right:40px;
+   padding-top:8px;
+   padding-bottom:8px;
+   border:#3882F6;
+   border-style:solid;
+   border-width:2px;
+   border-radius:10px;
 }
 
 .randombg{
-    height:52vh;
+    height:50vh;
     width:99vw;
     background:#fff;
     margin-top:80px;
@@ -147,6 +165,7 @@ align-items:center;
 }
 .quotesubtext{
 align-self:center;
+margin-top:10px;
 margin-left:530px;
 font-weight:bold;
 font-size:20px;
@@ -189,7 +208,25 @@ li{
 .ad+button{
    position:relative;
    right:200px;
+   font-weight:bold;
+   background:#3882F6;
+   color:#fff;
+   padding:10px;
+   border:#fff;
+   border-style:solid;
+   border-width:2px;
+   border-radius:10px;
 
 
 }
 
+.footer{
+    height:10vh;
+    width:99vw;
+    color:white;
+    font-weight:500;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:10px;
+}
